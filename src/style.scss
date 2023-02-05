@@ -88,7 +88,7 @@
 }
 
 .home {
-  background-color: #a7bcff;
+  background-color: #6fe0fd;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -107,13 +107,13 @@
 
     .sidebar {
       flex: 1;
-      background-color: #3e3c61;
+      background-color: #49494d;
       position: relative;
 
       .navbar {
         display: flex;
         align-items: center;
-        background-color: #2f2d52;
+        background-color: #343436;
         height: 50px;
         padding: 10px;
         justify-content: space-between;
@@ -139,10 +139,11 @@
           }
 
           button {
-            background-color: #5d5b8d;
+            background-color: #0c0c10;
             color: #ddddf7;
-            font-size: 10px;
+            font-size: 12px;
             border: none;
+            border-radius: 10px;
             cursor: pointer;
             @include tablet {
               position: absolute;
@@ -152,7 +153,8 @@
         }
       }
       .search {
-        border-bottom: 1px solid gray;
+        border-bottom: 1px solid rgb(243, 238, 238);
+        border-top: 1px solid rgb(252, 247, 247);
 
         .searchForm {
           padding: 10px;
@@ -206,12 +208,13 @@
 
       .chatInfo {
         height: 50px;
-        background-color: #5d5b8d;
+        background-color: #5b5b61;
         display: flex;
         align-items: center;
         justify-content: space-between;
         padding: 10px;
         color: lightgray;
+        // border-left: 1px solid rgb(249, 242, 242);
       }
 
       .chatIcons {
@@ -225,7 +228,7 @@
       }
 
       .messages {
-        background-color: #ddddf7;
+        background-color: #b6e2fb;
         padding: 10px;
         height: calc(100% - 160px);
         overflow: scroll;
